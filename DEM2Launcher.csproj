@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: E:\SteamLibrary\steamapps\common\Disney Epic Mickey 2\Launch.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7F69192-E23B-4D0B-8CF6-F2DE31447C8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Launcher</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InputMapper\InputDeviceConverter.cs" />
+    <Compile Include="InputMapper\InputPlayerConverter.cs" />
+    <Compile Include="InputMapper\InputValueIndexConverter.cs" />
+    <Compile Include="InputMapper\InputMapping.cs" />
+    <Compile Include="InputMapper\InputActionPlatform.cs" />
+    <Compile Include="InputMapper\InputAction.cs" />
+    <Compile Include="InputMapper\Context.cs" />
+    <Compile Include="InputMapper\InputContainer.cs" />
+    <Compile Include="InputMapper\Initializer.cs" />
+    <Compile Include="IniFiles\IniFileElement.cs" />
+    <Compile Include="IniFiles\IniFileSectionStart.cs" />
+    <Compile Include="IniFiles\IniFileBlankLine.cs" />
+    <Compile Include="IniFiles\IniFileCommentary.cs" />
+    <Compile Include="IniFiles\IniFileValue.cs" />
+    <Compile Include="IniFiles\IniFileReader.cs" />
+    <Compile Include="IniFiles\IniFileWriter.cs" />
+    <Compile Include="IniFiles\IniFile.cs" />
+    <Compile Include="IniFiles\IniFileSection.cs" />
+    <Compile Include="IniFiles\IniFileSettings.cs" />
+    <Compile Include="Launcher\MainForm.cs" />
+    <Compile Include="Launcher\OptionsForm.cs" />
+    <Compile Include="Launcher\Program.cs" />
+    <Compile Include="Launcher\Properties\Assets.cs" />
+    <Compile Include="Launcher\Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Launcher\MainForm.resx" />
+    <EmbeddedResource Include="Launcher\OptionsForm.resx" />
+    <EmbeddedResource Include="Launcher\Properties\Assets.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
