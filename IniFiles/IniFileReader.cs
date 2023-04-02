@@ -14,6 +14,7 @@ namespace IniFiles
   public class IniFileReader : StreamReader
   {
     private IniFileElement current;
+    public IniFileSectionStart line;
 
     public IniFileReader(Stream str)
       : base(str)

@@ -44,7 +44,7 @@ namespace Launcher.Properties
       set => Assets.resourceCulture = value;
     }
 
-    internal static Icon DEM2 => (Icon) Assets.ResourceManager.GetObject(nameof (DEM2), Assets.resourceCulture);
+
 
     internal static Bitmap DEM2_Black_ARA => (Bitmap) Assets.ResourceManager.GetObject(nameof (DEM2_Black_ARA), Assets.resourceCulture);
 
