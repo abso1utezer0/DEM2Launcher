@@ -1,0 +1,10 @@
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\bin\Debug\Launcher.exe
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\bin\Debug\Launcher.pdb
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\obj\Debug\DEM2Launcher.csproj.AssemblyReference.cache
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\obj\Debug\Launcher.MainForm.resources
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\obj\Debug\Launcher.OptionsForm.resources
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\obj\Debug\Launcher.Properties.Assets.resources
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\obj\Debug\DEM2Launcher.csproj.GenerateResource.cache
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\obj\Debug\DEM2Launcher.csproj.CoreCompileInputs.cache
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\obj\Debug\Launcher.exe
+C:\Users\janaa\Downloads\archives\DEM2Launcher-main\DEM2Launcher-main\obj\Debug\Launcher.pdb
